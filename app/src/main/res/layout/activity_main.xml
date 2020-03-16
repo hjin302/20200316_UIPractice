@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/thejoeun_logo"/>
+        android:src="@drawable/thejoeun_logo" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="아이디를 적어주세요"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,36 +32,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비번을 입력하세요"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="로그인"/>
+        android:text="로그인" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
-        android:text="자동 로그인"/>
+        android:text="자동 로그인" />
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="남성"/>
+            android:text="남성" />
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="여성"/>
+            android:text="여성" />
+
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="기타"/>
+            android:text="기타" />
     </RadioGroup>
 
     <TextView
@@ -73,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="전화번호를 입력하세요"
-        android:inputType="phone"/>
+        android:inputType="phone" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,7 +85,7 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="푸시알림 사용 여부"/>
+        android:text="푸시알림 사용 여부" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -93,8 +95,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="10"/>
-
+        android:lines="10" />
 
 
 </LinearLayout>
