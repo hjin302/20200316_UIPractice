@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/thejoeun_logo"/>
 
     <TextView
         android:layout_width="wrap_content"
